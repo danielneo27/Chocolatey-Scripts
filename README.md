@@ -10,6 +10,8 @@ A Utilização do script possuí alguns requisitos:
 - PowerShell.
 - Se não rodar o script de primeira, talvez seu Windows não tenha permissão para execução de scripts, para habilitar execute este comando no powershell *"Set-ExecutionPolicy Bypass -Scope Process"* pressione enter e confirme com "S". 
 
+### Captura-de-tela: 
+![Script-Chocolatey-Apps](https://github.com/danielneo27/Chocolatey-Scripts/blob/danielneo27/-PowerShell-Scripts/Captura%20de%20tela/Chocolatey-script-Apps.png "Script-Chocolatey-Apps")
  
 1. Para baixar e instalar o Chocolatey experimente a ferramenta que eu mesmo criei clicando aqui ao lado:
 <a class="github-button" href="https://github.com/danielneo27/Instalador-Chocolatey/releases/tag/v1.0.0-final" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Baixar agora</a>
