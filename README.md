@@ -11,6 +11,6 @@ A Utilização do script possuí alguns requisitos:
 - Se não rodar o script de primeira, talvez seu Windows não tenha permissão para execução de scripts, para habilitar execute este comando no powershell *"Set-ExecutionPolicy Bypass -Scope Process"* pressione enter e confirme com "S". 
 
  
-1.0 Primeiro é necessário instalar o chocolatey antes de utilizar este script, para isso experimente a ferramenta que eu mesmo criei clicando no botão abaixo:
+1. Primeiro é necessário instalar o chocolatey antes de utilizar este script, para isso experimente a ferramenta que eu mesmo criei clicando no botão ao lado:
 <a class="github-button" href="https://github.com/danielneo27/Instalador-Chocolatey/releases/tag/v1.0.0-final" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Baixar agora</a>
     
