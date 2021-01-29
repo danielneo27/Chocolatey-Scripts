@@ -19,5 +19,5 @@ A Utilização do script possuí alguns requisitos:
 
 3. Para escolher quais programas instalar entre no site do <a class="github-button" href="https://chocolatey.org/packages" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Chocolatey Packages</a> digite o nome do programa desejado copie apenas o nome e cole no script.
 
-4. Agora para rodar botão direito do mause sobre o script *Executar com o PowerShell*, o script iniciará e vai começar a instalar todos os softwares configurados.
+4. Agora para rodar botão direito do mause sobre o script "*Executar com o PowerShell*", o script iniciará e vai começar a instalar todos os softwares configurados.
     
