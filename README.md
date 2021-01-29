@@ -6,7 +6,7 @@ Script do Chocolatey🍫
 ##### O script já possui permissão automática para executar scripts via PowerShell sendo necessário na maioria das vezes somente confirmar com "S" e pressionar enter, então siga a última etapa de requisitos somente se não rodar o script.
 A Utilização do script possuí alguns requisitos: 
 
-- Chocolatey
+- Chocolatey.
 - Windows 10 ou 8.
 - PowerShell.
 - Se não rodar o script de primeira, talvez seu Windows não tenha permissão para execução de scripts, para habilitar execute este comando no powershell *"Set-ExecutionPolicy Bypass -Scope Process"* pressione enter e confirme com "S". 
