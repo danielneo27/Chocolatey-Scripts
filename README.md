@@ -20,4 +20,4 @@ A Utilização do script possuí alguns requisitos:
 
 4. Agora para rodar o script, botão direito do mause sobre o script "*Executar com o PowerShell*", o mesmo iniciará e vai começar a instalar todos os softwares configurados.
     
-OBS: Está ferramenta foi criada com objetivo de compartilhar o conhecimento, Gostou do script, então lembre-se a melhor forma de agradecer é compartilhando o meu trabalho diretamente da fonte, copie o link oficial deste post e compartilhe com o próximo.
+###### OBS: Está ferramenta foi criada com objetivo de compartilhar o conhecimento, Gostou do script, então lembre-se a melhor forma de agradecer é compartilhando o meu trabalho diretamente da fonte, copie o link oficial deste post e compartilhe com o próximo.
