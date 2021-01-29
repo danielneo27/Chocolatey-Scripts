@@ -13,5 +13,6 @@ A Utilização do script possuí alguns requisitos:
  
 1.0 Primeiro é necessário instalar o chocolatey antes de utilizar este script
 
-    ```https://github.com/danielneo27/Instalador-Chocolatey/releases/tag/v1.0.0-final
+    ```
+<a class="github-button" href="https://github.com/ntkme/github-buttons/archive/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
     ```
