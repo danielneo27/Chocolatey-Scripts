@@ -1,9 +1,10 @@
 # Chocolatey-Scripts
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-dark.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
+### Visão geral
+--------
 #### Script Chocolatey para instalação de softwares e execução de outras operações do gerenciador de pacotes Chocolatey. 
 #### **_Na primeira vez que for executar o script é necessário confirmar digitando "S" e pressionar enter, depois de confirmado terá permissão automática para executar scripts via PowerShell, só siga a última etapa de requisitos se, não conseguir confirmar está etapa._**
---------
+
 ### Características\Features:
 
 - Novo recurso implementado, chamado "allowGlobalConfirmation" tornando o argumento “-y” desnecessário para instalar cada pacote, otimizando ainda mais o script.
