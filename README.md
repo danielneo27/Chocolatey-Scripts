@@ -2,7 +2,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-dark.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 #### Script Chocolatey para instalação de softwares e execução de outras operações do software Chocolatey. 
-##### O script já possui permissão automática para executar scripts via PowerShell sendo necessário somente confirmar com "S" e pressionar enter, então siga a última etapa de requisitos somente se não rodar o script.
+##### **O script já possui permissão automática para executar scripts via PowerShell sendo necessário somente confirmar com "S" e pressionar enter, então siga a última etapa de requisitos somente se não rodar o script.**
 A Utilização do script possuí alguns requisitos: 
 
 - Chocolatey.
@@ -12,7 +12,7 @@ A Utilização do script possuí alguns requisitos:
 
 ### Características\Features:
 
-- O argumento "-y" não é necessario pois o chocolatey tem uma feature padrão chamada "choco feature enable -n allowGlobalConfirmation" que substitue isso completamente.
+- O argumento "-y" não é necessario pois o chocolatey tem uma feature padrão chamada "allowGlobalConfirmation" que substitue isso completamente.
 - Modo de instalação interativa adicionado em um dos pacotes, podendo ser usado em qualquer pacote como neste exemplo "git.install --not-silent",
 - Comandos abreviados implementados, toranando mais otimizado e organizado visualmente o script.
 
