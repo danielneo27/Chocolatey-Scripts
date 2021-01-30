@@ -187,6 +187,6 @@ choco feature disable -n allowGlobalConfirmation
 
 #faz uma pausa na quantidade de tempo Em "SEGUNDOS" escolha desta forma 60500 segundos = 1 minuto e 5 segundos, altere o valor do "Sleep" para funcionar.
 
-Write-Host "Todos os Pacotes Instalados, O script fechará automaticamente em 40 Segundos!" -F Magenta
+Write-Host "Todos os Pacotes Instalados, O script fechará automaticamente em 10 Segundos!" -F Magenta
 
 [System.Threading.Thread]::Sleep(10000)
