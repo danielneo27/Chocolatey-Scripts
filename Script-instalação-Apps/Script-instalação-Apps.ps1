@@ -3,14 +3,14 @@
 	===========================================================================
 	 Criado em:   	02/12/2020
 	 Criado por:   	Daniel Neo
-     Versão:        1.2.0
+     VersÃ£o:        1.2.0
      Atualizado:    30/01/2021
 	 Nome do arquivo:  Script-install-apps
 	===========================================================================
-	.Utilização
-		Remova o "#" do inicio de cada linha de programa que deseja instalar, se uma linha possuir o segundo "#" não é necessario retirar.
+	.UtilizaÃ§Ã£o
+		Remova o "#" do inicio de cada linha de programa que deseja instalar, se uma linha possuir o segundo "#" nÃ£o Ã© necessario retirar.
 
-        Os comandos de instalação padrão do chocolatey não foram modificados, o chocolatey apenas deixou escondido uma forma de abreaviatura dos mesmos, teste e verá como funciona bem!!!
+        Os comandos de instalaÃ§Ã£o padrÃ£o do chocolatey nÃ£o foram modificados, o chocolatey apenas deixou escondido uma forma de abreaviatura dos mesmos, experimente e verÃ¡ como funciona bem!!!
 #>
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
 
@@ -27,7 +27,7 @@ $newsize = $pswindow.windowsize
 $newsize.height = 38
 $newsize.width = 95
 $pswindow.windowsize = $newsize
-$host.UI.RawUI.WindowTitle = "CHOCOLATEY | $([char]0x00A9) Daniel Petito | Instalação-Apps"
+$host.UI.RawUI.WindowTitle = "CHOCOLATEY | $([char]0x00A9) Daniel Petito | InstalaÃ§Ã£o-Apps"
 cls
 
 Write " _______           _______  _______  _______  _        _______ _________ _______          ";
@@ -47,7 +47,7 @@ Write-Host Configurando chocolatey
 choco feature enable -n allowGlobalConfirmation
 
 
-##Instalação de programas##
+##InstalaÃ§Ã£o de programas##
 
 Write-Host "Instalando Pacotes do sistema..." -F Red
 
@@ -65,7 +65,7 @@ Write-Host "Pacotes do sistema Instalados - Pronto..." -F Yellow
 
 Write-Host "Instalando Pacotes Opcionais..." -F Red
 
-#cinst bleachbit.install #Limpador de cache, excluir cookies, limpar histórico da Internet.
+#cinst bleachbit.install #Limpador de cache, excluir cookies, limpar histÃ³rico da Internet.
 #cinst teamviewer
 #cinst teamviewer9
 #cinst cdburnerxp
@@ -98,7 +98,7 @@ Write-Host "Instalando Pacotes Opcionais..." -F Red
 #cinst formatfactory
 #cinst tor-browser
 #cinst llftool      #HDD Low Level Format Tool
-#cinst vcredist-all #Microsoft Visual C++ Runtime - Todas as versões
+#cinst vcredist-all #Microsoft Visual C++ Runtime - Todas as versÃµes
 #cinst dotnet    #Microsoft .NET 5.0.0
 #cinst dotnet3.5 #Microsoft .NET Framework 3.5
 #cinst dotnetfx #Microsoft .NET Framework 4.8
@@ -107,7 +107,7 @@ Write-Host "Pacotes Opcionais Instalados - Pronto..." -F Yellow
 
 ##Portable##
 
-#cinst bleachbit.portable #Limpador de cache, excluir cookies, limpar histórico da Internet.
+#cinst bleachbit.portable #Limpador de cache, excluir cookies, limpar histÃ³rico da Internet.
 #cinst ssd-z.portable
 #cinst rufus.portable
 #cinst adwcleaner
@@ -131,11 +131,11 @@ Write-Host "Pacotes Opcionais Instalados - Pronto..." -F Yellow
 
 ##Ferramentas##
 
-#cinst lightshot.install  #selecione qualquer área de sua área de trabalho e faça sua captura de tela com 2 cliques de botão e envie para nuvem para compartilhar a mesma.
+#cinst lightshot.install  #selecione qualquer Ã¡rea de sua Ã¡rea de trabalho e faÃ§a sua captura de tela com 2 cliques de botÃ£o e envie para nuvem para compartilhar a mesma.
 #cinst greenshot #ferramenta de Captura de Telas(Prints)
-#cinst gimp      #programa de edição e criação de imagens
-#cinst lockhunter #ferramenta gratuita para excluir arquivos bloqueados por algo que você não conhece.
-#cinst nmap       #Scanner de Rede Gratuito com recusos avançados
+#cinst gimp      #programa de ediÃ§Ã£o e criaÃ§Ã£o de imagens
+#cinst lockhunter #ferramenta gratuita para excluir arquivos bloqueados por algo que vocÃª nÃ£o conhece.
+#cinst nmap       #Scanner de Rede Gratuito com recusos avanÃ§ados
 #cinst ultrasearch #pesquisa arquivos e pastas em unidades NTFS locais e fornece os resultados em apenas alguns segundos.
 #cinst godmode
 #cinst bginfo
@@ -143,16 +143,16 @@ Write-Host "Pacotes Opcionais Instalados - Pronto..." -F Yellow
 #cinst choco-update-notifier
 
 ##Drivers##
-#cinst intel-graphics-driver  #Driver a partir da 6ª geração de processadores Intel
+#cinst intel-graphics-driver  #Driver a partir da 6Âª geraÃ§Ã£o de processadores Intel
 #cinst GeForce Experience #Otimizador de game e atualizador de Drivers Nvidia
 #cinst geforce-game-ready-driver  #GEFORCE GAME READY DRIVER (Recomendado para Gamers)
-#cinst nvidia-display-driver #NVidia Display Driver(Recomendado para usuários comuns)
+#cinst nvidia-display-driver #NVidia Display Driver(Recomendado para usuÃ¡rios comuns)
 #cinst rapr      #Driver Store Explorer [RAPR]
 #cinst snappy-driver-installer #Snappy Driver Installer (Portable)
 
 ##DEV##
 
-#cinst lf #Gerenciador de arquivos para terminal, funções listar,ler e abrir arquivos,pdfs/imagens,etc(USANDO AS SETAS DO TECLADO COMO NAVEGAÇÂO PADRÃO)Cross-platform (Linux, OSX, BSDs, Windows).
+#cinst lf #Gerenciador de arquivos para terminal, funÃ§Ãµes listar,ler e abrir arquivos,pdfs/imagens,etc(USANDO AS SETAS DO TECLADO COMO NAVEGAÃ‡Ã‚O PADRÃƒO)Cross-platform (Linux, OSX, BSDs, Windows).
 #cinst hashtab #Verificador de hash em arquivos
 #cinst vscode.install #Visual Studio Code
 #cinst sublimetext3
@@ -160,16 +160,16 @@ Write-Host "Pacotes Opcionais Instalados - Pronto..." -F Yellow
 #cinst fluent-terminal
 #cinst pswindowsupdate :PSWindowsUpdate (PowerShell Module)
 #cinst python
-#cinst git.install --not-silent #Instalação normal sem modo silencioso
+#cinst git.install --not-silent #InstalaÃ§Ã£o normal sem modo silencioso
 #cinst gitextensions
 #cinst github-desktop
 
 ##Gaming-Softwares##
 
-#cinst steam --not-silent #Instalação interativa
-#cinst epicgameslauncher --not-silent #Instalação interativa
-#cinst uplay --not-silent #Instalação interativa
-#cinst origin --not-silent #Instalação interativa
+#cinst steam --not-silent #InstalaÃ§Ã£o interativa
+#cinst epicgameslauncher --not-silent #InstalaÃ§Ã£o interativa
+#cinst uplay --not-silent #InstalaÃ§Ã£o interativa
+#cinst origin --not-silent #InstalaÃ§Ã£o interativa
 #cinst msiafterburner
 #cinst gamesavemanager
 #cinst cheatengine
@@ -187,6 +187,6 @@ choco feature disable -n allowGlobalConfirmation
 
 #faz uma pausa na quantidade de tempo Em "SEGUNDOS" escolha desta forma 60500 segundos = 1 minuto e 5 segundos, altere o valor do "Sleep" para funcionar.
 
-Write-Host "Todos os Pacotes Instalados, O script fechará automaticamente em 40 Segundos!" -F Magenta
+Write-Host "Todos os Pacotes Instalados, O script fecharÃ¡ automaticamente em 40 Segundos!" -F Magenta
 
 [System.Threading.Thread]::Sleep(10000)
