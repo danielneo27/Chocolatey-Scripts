@@ -160,7 +160,7 @@ Write-Host "Pacotes Opcionais Instalados - Pronto..." -F Yellow
 #cinst fluent-terminal
 #cinst pswindowsupdate :PSWindowsUpdate (PowerShell Module)
 #cinst python
-#cinst git.install --not-silent #Instalação normal sem modo silencioso
+#cinst git.install --not-silent #Instalação interativa
 #cinst gitextensions
 #cinst github-desktop
 
