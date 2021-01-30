@@ -1,0 +1,7 @@
+A maioria dos apps portáteis são instalados em pastas ocultas do chocolatey, para verificar se seu app está em uma delas, copie e cole no explorador de arquivos os seguintes endereços abaixo:
+
+C:\ProgramData\chocolatey\bin
+
+C:\ProgramData\chocolatey\lib
+
+C:\ProgramData\chocolatey\lib-bad
