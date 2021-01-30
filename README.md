@@ -1,7 +1,7 @@
 # Chocolatey-Scripts
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-dark.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-#### Script Chocolatey para instalação de softwares e execução de outras operações do software Chocolatey. 
+#### Script Chocolatey para instalação de softwares e execução de outras operações do Gerenciador de pacotes Chocolatey. 
 #### **_O script já possui permissão automática para executar scripts via PowerShell sendo necessário somente confirmar com "S" e pressionar enter na primeira vez de uso, então siga a última etapa de requisitos somente se não rodar o script._** 
 
 ### Características\Features:
