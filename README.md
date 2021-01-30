@@ -12,7 +12,7 @@
 
 ### Características\Features:
 
-- O argumento "-y" não é necessario pois o chocolatey tem uma feature padrão chamada "allowGlobalConfirmation" que substitue isso completamente.
+- Novo recurso implementado, chamado "allowGlobalConfirmation" tornando o “-y” desnecessário para instalar cada pacote, otimizando ainda mais o script.
 - Modo de instalação interativa adicionado em um dos pacotes, podendo ser usado em qualquer pacote como neste exemplo "git.install --not-silent",
 - Comandos abreviados implementados para instalar "cinst", para desinstalar "cuninst", tornando o script mais otimizado e organizado visualmente.
 
