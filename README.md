@@ -14,7 +14,7 @@
 
 - O argumento "-y" não é necessario pois o chocolatey tem uma feature padrão chamada "allowGlobalConfirmation" que substitue isso completamente.
 - Modo de instalação interativa adicionado em um dos pacotes, podendo ser usado em qualquer pacote como neste exemplo "git.install --not-silent",
-- Comandos abreviados implementados para instalar "cinst", para desinstalar "cuninst", toranando mais otimizado e organizado visualmente o script.
+- Comandos abreviados implementados para instalar "cinst", para desinstalar "cuninst", tornando o script mais otimizado e organizado visualmente.
 
 ### Captura-de-tela: 
 ![Script-Chocolatey-Apps](https://github.com/danielneo27/Chocolatey-Scripts/blob/danielneo27/-PowerShell-Scripts/Captura%20de%20tela/Chocolatey-script-Apps.png "Script-Chocolatey-Apps")
