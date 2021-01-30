@@ -2,13 +2,13 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-dark.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 #### Script Chocolatey para instalação de softwares e execução de outras operações do gerenciador de pacotes Chocolatey. 
-#### **_O script já possui permissão automática para executar scripts via PowerShell sendo necessário somente confirmar com "S" e pressionar enter na primeira vez de uso, então siga a última etapa de requisitos somente se não rodar o script._** 
+#### **_O script já possui permissão automática para executar scripts via PowerShell, sendo necessário ao executar confirmar com "S" e pressionar enter na primeira vez de uso, só siga a última etapa de requisitos se nãoconseguir executar o script._** 
 
 ### Características\Features:
 
 - Novo recurso implementado, chamado "allowGlobalConfirmation" tornando o argumento “-y” desnecessário para instalar cada pacote, otimizando ainda mais o script.
 - Modo de instalação interativa adicionado em alguns pacotes, tornando possível a instalação em outra unidade de disco, para utilizar siga este exemplo "nomedopacote --not-silent", lembrando que este recurso torna somente a instalação de cada pacote manual.
-- Comandos abreviados implementados para instalar "cinst", para desinstalar "cuninst", tornando o script mais otimizado e organizado visualmente.
+- Comandos abreviados implementados, para instalar "cinst", para desinstalar "cuninst", tornando o script mais otimizado e organizado.
 
 ### Captura-de-tela: 
 ![Script-Chocolatey-Apps](https://github.com/danielneo27/Chocolatey-Scripts/blob/danielneo27/-PowerShell-Scripts/Captura%20de%20tela/Chocolatey-script-Apps.png "Script-Chocolatey-Apps")
