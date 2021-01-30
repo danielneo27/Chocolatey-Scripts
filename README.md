@@ -2,13 +2,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-dark.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 #### Script Chocolatey para instalação de softwares e execução de outras operações do software Chocolatey. 
-##### **O script já possui permissão automática para executar scripts via PowerShell sendo necessário somente confirmar com "S" e pressionar enter, então siga a última etapa de requisitos somente se não rodar o script.**
-##### A Utilização do script possuí alguns requisitos: 
-
-- Chocolatey.
-- Windows 10 ou 8.
-- PowerShell.
-- Se não rodar o script de primeira, talvez seu Windows não tenha permissão para execução de scripts, para habilitar execute este comando no powershell *"Set-ExecutionPolicy Bypass -Scope Process"* pressione enter e confirme com "S". 
+##### **O script já possui permissão automática para executar scripts via PowerShell sendo necessário somente confirmar com "S" e pressionar enter, então siga a última etapa de requisitos somente se não rodar o script.** 
 
 ### Características\Features:
 
@@ -18,6 +12,13 @@
 
 ### Captura-de-tela: 
 ![Script-Chocolatey-Apps](https://github.com/danielneo27/Chocolatey-Scripts/blob/danielneo27/-PowerShell-Scripts/Captura%20de%20tela/Chocolatey-script-Apps.png "Script-Chocolatey-Apps")
+ 
+ ### A Utilização do script possuí alguns requisitos: 
+
+- Chocolatey.
+- Windows 10 ou 8.
+- PowerShell.
+- Se não rodar o script de primeira, talvez seu Windows não tenha permissão para execução de scripts, para habilitar execute este comando no powershell *"Set-ExecutionPolicy Bypass -Scope Process"* pressione enter e confirme com "S".
  
 1. Para baixar e instalar o Chocolatey experimente a ferramenta que eu mesmo criei clicando aqui ao lado:
 <a class="github-button" href="https://github.com/danielneo27/Instalador-Chocolatey/releases/tag/v1.0.0-final" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Baixar agora</a>
