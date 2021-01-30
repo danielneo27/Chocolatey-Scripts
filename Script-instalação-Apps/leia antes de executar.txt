@@ -1,0 +1,1 @@
+Na primeira vez que for executar o script é necessário confirmar digitando "S" e pressionar enter, depois de confirmado terá permissão automática para executar scripts via PowerShell.
